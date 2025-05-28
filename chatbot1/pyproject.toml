@@ -1,0 +1,21 @@
+[project]
+name = "chatbot1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "chainlit>=2.5.5",
+    "dotenv>=0.9.9",
+    "openai-agents>=0.0.15",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+chatbot1 = "chatbot1:main"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
